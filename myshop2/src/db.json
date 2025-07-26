@@ -1,0 +1,343 @@
+{
+  "products": [
+  {
+    "id": 1,
+    "name": "Logitech G923",
+    "brand": "Logitech",
+    "type": "Racing Wheel",
+    "price": 18999,
+    "rating": 4.7,
+    "popularity": 95,
+    "image": "images/lg923.webp",
+    "releaseYear": 2021,
+    "compatibility": ["PC", "PlayStation", "Xbox"],
+    "features": [
+      "TrueForce Force Feedback",
+      "Dual Clutch Launch Control",
+      "Responsive Pedals",
+      "Aluminum Paddle Shifters"
+    ],
+    "warranty": "2 года",
+    "description": "Современный руль с технологией TrueForce, совместим с ПК и консолями. Поддержка обратной связи, металлические лепестки, педали в комплекте."
+  },
+  {
+    "id": 2,
+    "name": "Thrustmaster T300 RS GT",
+    "brand": "Thrustmaster",
+    "type": "Racing Wheel",
+    "price": 21999,
+    "rating": 4.8,
+    "popularity": 91,
+    "image": "images/t300rs.webp",
+    "releaseYear": 2020,
+    "compatibility": ["PC", "PlayStation"],
+    "features": [
+      "Бесщеточный мотор",
+      "Сменная рулевая насадка",
+      "Педали GT Edition",
+      "Совместимость с PlayStation и ПК"
+    ],
+    "warranty": "2 года",
+    "description": "Руль с бесщеточным мотором, сменная рулевая насадка, педали GT Edition, совместим с PlayStation и ПК."
+  },
+  {
+    "id": 3,
+    "name": "Fanatec CSL DD",
+    "brand": "Fanatec",
+    "type": "Direct Drive Base",
+    "price": 35999,
+    "rating": 4.9,
+    "popularity": 87,
+    "image": "images/csldd.webp",
+    "releaseYear": 2021,
+    "compatibility": ["PC", "Xbox"],
+    "features": [
+      "Direct Drive технология",
+      "Компактный размер",
+      "Высокая точность",
+      "Поддержка экосистемы Fanatec"
+    ],
+    "warranty": "2 года",
+    "description": "Direct Drive база, компактный размер, высокая точность и отзывчивость, поддержка экосистемы Fanatec."
+  },
+  {
+    "id": 4,
+    "name": "Hori Racing Wheel Apex",
+    "brand": "Hori",
+    "type": "Racing Wheel",
+    "price": 7999,
+    "rating": 4.1,
+    "popularity": 73,
+    "image": "images/hori.webp",
+    "releaseYear": 2019,
+    "compatibility": ["PC", "PlayStation"],
+    "features": [
+      "Доступная цена",
+      "Простая установка",
+      "Поворот 270°",
+      "Программируемые кнопки"
+    ],
+    "warranty": "1 год",
+    "description": "Бюджетный руль для начинающих, совместим с ПК и PlayStation, простая установка и настройка."
+  },
+  {
+    "id": 5,
+    "name": "PXN V9",
+    "brand": "PXN",
+    "type": "Racing Wheel",
+    "price": 10499,
+    "rating": 4.3,
+    "popularity": 80,
+    "image": "images/pxnv9.webp",
+    "releaseYear": 2020,
+    "compatibility": ["PC", "PlayStation", "Xbox"],
+    "features": [
+      "Поворот 900°",
+      "Виброотдача",
+      "Педали и рычаг КПП в комплекте",
+      "Совместимость с разными платформами"
+    ],
+    "warranty": "1 год",
+    "description": "Руль с поворотом 900°, виброотдачей, педалями и рычагом КПП в комплекте. Универсальная совместимость."
+  },
+  {
+    "id": 6,
+    "name": "Logitech G29 Driving Force",
+    "brand": "Logitech",
+    "type": "Racing Wheel",
+    "price": 17999,
+    "rating": 4.6,
+    "popularity": 90,
+    "image": "images/lg29.webp",
+    "releaseYear": 2018,
+    "compatibility": ["PC", "PlayStation"],
+    "features": [
+      "Двойной мотор Force Feedback",
+      "Педали в комплекте",
+      "Металлические лепестки",
+      "Совместимость с PlayStation и ПК"
+    ],
+    "warranty": "2 года",
+    "description": "Классический руль для симрейсинга с двойным мотором Force Feedback и педалями в комплекте."
+  },
+  {
+    "id": 7,
+    "name": "Thrustmaster T248",
+    "brand": "Thrustmaster",
+    "type": "Racing Wheel",
+    "price": 20499,
+    "rating": 4.5,
+    "popularity": 82,
+    "image": "images/tt248.webp",
+    "releaseYear": 2021,
+    "compatibility": ["PC", "PlayStation"],
+    "features": [
+      "Дисплей на руле",
+      "Три режима Force Feedback",
+      "Педали с магнитными датчиками",
+      "Совместимость с PlayStation и ПК"
+    ],
+    "warranty": "2 года",
+    "description": "Современный руль с дисплеем, тремя режимами Force Feedback и магнитными педалями."
+  },
+  {
+    "id": 8,
+    "name": "Fanatec Podium Racing Wheel F1",
+    "brand": "Fanatec",
+    "type": "Racing Wheel",
+    "price": 69999,
+    "rating": 5.0,
+    "popularity": 75,
+    "image": "images/fanatec.webp",
+    "releaseYear": 2022,
+    "compatibility": ["PC", "PlayStation"],
+    "features": [
+      "Direct Drive",
+      "Официальная лицензия F1",
+      "Высокая мощность",
+      "Премиальные материалы"
+    ],
+    "warranty": "2 года",
+    "description": "Премиальный руль с Direct Drive и лицензией F1, максимальная мощность и качество материалов."
+  },
+  {
+  "id": 13,
+  "name": "MOZA R3 Base",
+  "brand": "MOZA",
+  "price": 15999,
+  "rating": 4.7,
+  "popularity": 82,
+  "image": "https://i.imgur.com/aB3d9Qk.png"
+},
+  {
+  "id": 9,
+  "name": "MOZA R5 Bundle",
+  "brand": "MOZA",
+  "price": 18999,
+  "rating": 4.8,
+  "popularity": 85,
+  "image": "https://i.imgur.com/KsG1clz.png"
+},
+{
+  "id": 10,
+  "name": "MOZA R9 Base",
+  "brand": "MOZA",
+  "price": 25999,
+  "rating": 4.9,
+  "popularity": 88,
+  "image": "https://i.imgur.com/vFvAyIj.png"
+},
+{
+  "id": 11,
+  "name": "MOZA R12 Wheel Base",
+  "brand": "MOZA",
+  "price": 33999,
+  "rating": 5.0,
+  "popularity": 80,
+  "image": "https://i.imgur.com/ks0Bg5N.png"
+},
+{
+  "id": 12,
+  "name": "MOZA R21 Direct Drive",
+  "brand": "MOZA",
+  "price": 46999,
+  "rating": 5.0,
+  "popularity": 76,
+  "image": "https://i.imgur.com/8V7ThDn.png"
+},
+ {
+    "id": 14,
+    "name": "Thrustmaster T-LCM Pedals",
+    "brand": "Thrustmaster",
+    "type": "Pedals",
+    "price": 6999,
+    "rating": 4.5,
+    "popularity": 88,
+    "image": "https://i.imgur.com/nHguFgt.png"
+  },
+  {
+    "id": 15,
+    "name": "Fanatec ClubSport Pedals V3",
+    "brand": "Fanatec",
+    "type": "Pedals",
+    "price": 13999,
+    "rating": 4.9,
+    "popularity": 84,
+    "image": "https://i.imgur.com/GpWeZZ1.png"
+  },
+  {
+    "id": 16,
+    "name": "MOZA SR-P Pedals",
+    "brand": "MOZA",
+    "type": "Pedals",
+    "price": 10999,
+    "rating": 4.7,
+    "popularity": 81,
+    "image": "https://i.imgur.com/gmvK6He.png"
+  },
+  {
+    "id": 17,
+    "name": "Logitech Flight Yoke System",
+    "brand": "Logitech",
+    "type": "Yoke",
+    "price": 12499,
+    "rating": 4.6,
+    "popularity": 77,
+    "image": "https://i.imgur.com/KY0Y0mL.png"
+  },
+  {
+    "id": 18,
+    "name": "Thrustmaster TCA Sidestick Airbus Edition",
+    "brand": "Thrustmaster",
+    "type": "Yoke",
+    "price": 5499,
+    "rating": 4.5,
+    "popularity": 79,
+    "image": "https://i.imgur.com/5rTRdEQ.png"
+  },
+  {
+    "id": 19,
+    "name": "Next Level Racing GTLite Cockpit",
+    "brand": "Next Level Racing",
+    "type": "Cockpit",
+    "price": 11499,
+    "rating": 4.8,
+    "popularity": 83,
+    "image": "https://i.imgur.com/YJeGSwM.png"
+  },
+  {
+    "id": 20,
+    "name": "Playseat Evolution Pro",
+    "brand": "Playseat",
+    "type": "Cockpit",
+    "price": 16999,
+    "rating": 4.7,
+    "popularity": 86,
+    "image": "https://i.imgur.com/bJcZ1R5.png"
+  },
+  {
+    "id": 21,
+    "name": "MOZA HGP Shifter",
+    "brand": "MOZA",
+    "type": "Shifter",
+    "price": 7999,
+    "rating": 4.6,
+    "popularity": 78,
+    "image": "https://i.imgur.com/yaZzChB.png"
+  },
+  {
+    "id": 22,
+    "name": "Fanatec ClubSport Button Module",
+    "brand": "Fanatec",
+    "type": "Accessory",
+    "price": 9999,
+    "rating": 4.8,
+    "popularity": 75,
+    "image": "https://i.imgur.com/ibixUBl.png"
+  },
+  {
+    "id": 23,
+    "name": "Thrustmaster T818 Wheel Base",
+    "brand": "Thrustmaster",
+    "type": "Base",
+    "price": 22499,
+    "rating": 4.7,
+    "popularity": 83,
+    "image": "https://i.imgur.com/4FqGx1x.png"
+  },
+  {
+    "id": 24,
+    "name": "MOZA R16 Direct Drive Base",
+    "brand": "MOZA",
+    "type": "Base",
+    "price": 39999,
+    "rating": 5.0,
+    "popularity": 74,
+    "image": "https://i.imgur.com/UYhykpl.png"
+  }
+
+],
+
+
+ 
+  "categories": [
+    {
+      "id": 1,
+      "name": "Racing Wheels",
+      "description": "High-quality racing wheels for an immersive driving experience."
+    },
+    {
+      "id": 2,
+      "name": "Accessories",
+      "description": "Essential accessories to enhance your racing setup."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "gamer123",
+      "email": "gamer123@example.com"
+    }
+  ]
+}
+
