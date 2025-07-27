@@ -14,7 +14,6 @@ function ProductItem({ product }) {
         />
         <div className="productItem-info">
           <h3 className="productItem-title">{product.name}</h3>
-          <p className="productItem-description">{product.description}</p>
           <span className="productItem-price">₴{product.price}</span>
           <button className="productItem-button" onClick={() => setShowModal(true)}>
             About
@@ -31,18 +30,20 @@ function ProductItem({ product }) {
               alt={product.name}
             />
             <h2>{product.name}</h2>
-            <p><b>Бренд:</b> {product.brand}</p>
-            {product.type && <p><b>Тип:</b> {product.type}</p>}
-            <p><b>Цена:</b> ₴{product.price}</p>
-            <p><b>Рейтинг:</b> {product.rating}</p>
-            <p><b>Популярность:</b> {product.popularity}</p>
-            {product.releaseYear && <p><b>Год выпуска:</b> {product.releaseYear}</p>}
+            <ul className="modal-details">
+              <li><b>brend:</b> {product.brand}</li>
+              {product.type && <li><b>type:</b> {product.type}</li>}
+              <li><b>price:</b> ₴{product.price}</li>
+              <li><b>rating:</b> {product.rating}</li>
+              <li><b>popularity:</b> {product.popularity}</li>
+            </ul>
+            {product.releaseYear && <p><b>releaseYear:</b> {product.releaseYear}</p>}
             {product.compatibility && (
-              <p><b>Совместимость:</b> {product.compatibility.join(', ')}</p>
+              <p><b>compatibility:</b> {product.compatibility.join(', ')}</p>
             )}
             {product.features && (
               <div>
-                <b>Особенности:</b>
+                <b>features:</b>
                 <ul style={{margin: "8px 0"}}>
                   {product.features.map((feature, index) => (
                     <li key={index}>{feature}</li>

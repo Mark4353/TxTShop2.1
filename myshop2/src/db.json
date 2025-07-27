@@ -161,160 +161,327 @@
     "description": "Премиальный руль с Direct Drive и лицензией F1, максимальная мощность и качество материалов."
   },
   {
-  "id": 13,
-  "name": "MOZA R3 Base",
-  "brand": "MOZA",
-  "price": 15999,
-  "rating": 4.7,
-  "popularity": 82,
-  "image": "https://i.imgur.com/aB3d9Qk.png"
-},
+    "id": 9,
+    "name": "MOZA R5 Bundle",
+    "brand": "MOZA",
+    "type": "Racing Wheel Bundle",
+    "price": 18999,
+    "rating": 4.8,
+    "popularity": 85,
+    "image": "https://i.imgur.com/KsG1clz.png",
+    "releaseYear": 2022,
+    "compatibility": ["PC"],
+    "features": [
+      "5.5 Nm Direct Drive мотор",
+      "Руль ES 11″ с RGB подсветкой",
+      "Педали SR-P Lite (Hall sensors)",
+      "MOZA Pit House",
+      "Металлический крепёж"
+    ],
+    "warranty": "2 года",
+    "description": "Полный комплект для симрейсинга с Direct Drive, педалями и прочным зажимом для стола."
+  },
   {
-  "id": 9,
-  "name": "MOZA R5 Bundle",
-  "brand": "MOZA",
-  "price": 18999,
-  "rating": 4.8,
-  "popularity": 85,
-  "image": "https://i.imgur.com/KsG1clz.png"
-},
-{
-  "id": 10,
-  "name": "MOZA R9 Base",
-  "brand": "MOZA",
-  "price": 25999,
-  "rating": 4.9,
-  "popularity": 88,
-  "image": "https://i.imgur.com/vFvAyIj.png"
-},
-{
-  "id": 11,
-  "name": "MOZA R12 Wheel Base",
-  "brand": "MOZA",
-  "price": 33999,
-  "rating": 5.0,
-  "popularity": 80,
-  "image": "https://i.imgur.com/ks0Bg5N.png"
-},
-{
-  "id": 12,
-  "name": "MOZA R21 Direct Drive",
-  "brand": "MOZA",
-  "price": 46999,
-  "rating": 5.0,
-  "popularity": 76,
-  "image": "https://i.imgur.com/8V7ThDn.png"
-},
- {
+    "id": 10,
+    "name": "MOZA R9 Base",
+    "brand": "MOZA",
+    "type": "Direct Drive Base",
+    "price": 25999,
+    "rating": 4.9,
+    "popularity": 88,
+    "image": "https://i.imgur.com/vFvAyIj.png",
+    "releaseYear": 2022,
+    "compatibility": ["PC"],
+    "features": [
+      "9 Nm Direct Drive",
+      "Full-metal корпус",
+      "Интеллектуальное охлаждение",
+      "Совместимость с MOZA Ecosystem"
+    ],
+    "warranty": "2 года",
+    "description": "Компактная и мощная база на 9 Нм. Отличный выбор для энтузиастов."
+  },
+  {
+    "id": 11,
+    "name": "MOZA R12 Base",
+    "brand": "MOZA",
+    "type": "Direct Drive Base",
+    "price": 33999,
+    "rating": 5.0,
+    "popularity": 80,
+    "image": "https://i.imgur.com/ks0Bg5N.png",
+    "releaseYear": 2023,
+    "compatibility": ["PC"],
+    "features": [
+      "12 Nm момент",
+      "Алгоритм NexGen 4.0 FFB",
+      "15-битный энкодер",
+      "Тепловая защита и умное охлаждение"
+    ],
+    "warranty": "2 года",
+    "description": "Плавное и точное усилие для симрейсеров, которым нужна стабильность и мощность."
+  },
+  {
+    "id": 12,
+    "name": "MOZA R16 Base",
+    "brand": "MOZA",
+    "type": "Direct Drive Base",
+    "price": 39999,
+    "rating": 5.0,
+    "popularity": 74,
+    "image": "https://i.imgur.com/UYhykpl.png",
+    "releaseYear": 2021,
+    "compatibility": ["PC"],
+    "features": [
+      "16 Nm Direct Drive",
+      "Энкодер 18-бит (~256k ppr)",
+      "Прочный алюминиевый корпус",
+      "Профессиональное охлаждение"
+    ],
+    "warranty": "2 года",
+    "description": "Мощная база с высоким разрешением FFB для профессиональных симрейсеров."
+  },
+  {
+    "id": 13,
+    "name": "Logitech G29 Driving Force",
+    "brand": "Logitech",
+    "type": "Racing Wheel",
+    "price": 11999,
+    "rating": 4.6,
+    "popularity": 95,
+    "image": "https://i.imgur.com/bIsIEcP.png",
+    "releaseYear": 2015,
+    "compatibility": ["PC", "PS3", "PS4", "PS5"],
+    "features": [
+      "900° вращение",
+      "Двойной мотор вибрации",
+      "Кожаный руль",
+      "Педали в комплекте"
+    ],
+    "warranty": "1 год",
+    "description": "Надёжный выбор для начинающих и продвинутых игроков на PlayStation и ПК."
+  },
+  {
     "id": 14,
     "name": "Thrustmaster T-LCM Pedals",
     "brand": "Thrustmaster",
     "type": "Pedals",
     "price": 6999,
     "rating": 4.5,
-    "popularity": 88,
-    "image": "https://i.imgur.com/nHguFgt.png"
+    "popularity": 72,
+    "image": "https://i.imgur.com/SJ4GmhY.png",
+    "releaseYear": 2020,
+    "compatibility": ["PC", "Xbox", "PlayStation"],
+    "features": [
+      "Load Cell до 100 кг",
+      "Регулируемое сопротивление",
+      "Металлическая конструкция",
+      "Совместимость с разными базами"
+    ],
+    "warranty": "1 год",
+    "description": "Точные и прочные педали с нагрузочным датчиком, идеально подходят для апгрейда."
   },
   {
     "id": 15,
-    "name": "Fanatec ClubSport Pedals V3",
-    "brand": "Fanatec",
-    "type": "Pedals",
-    "price": 13999,
-    "rating": 4.9,
-    "popularity": 84,
-    "image": "https://i.imgur.com/GpWeZZ1.png"
+    "name": "Thrustmaster T300RS GT",
+    "brand": "Thrustmaster",
+    "type": "Racing Wheel Bundle",
+    "price": 16999,
+    "rating": 4.7,
+    "popularity": 85,
+    "image": "https://i.imgur.com/6Xd9zR0.png",
+    "releaseYear": 2016,
+    "compatibility": ["PC", "PS3", "PS4"],
+    "features": [
+      "Force Feedback с сервоприводом",
+      "900° вращения",
+      "GT Edition педали",
+      "Quick Release"
+    ],
+    "warranty": "2 года",
+    "description": "Популярный руль с плавным FFB и съёмным рулевым колесом. Идеален для гонок GT."
   },
   {
     "id": 16,
-    "name": "MOZA SR-P Pedals",
-    "brand": "MOZA",
-    "type": "Pedals",
-    "price": 10999,
-    "rating": 4.7,
-    "popularity": 81,
-    "image": "https://i.imgur.com/gmvK6He.png"
+    "name": "Fanatec CSL DD (5Nm)",
+    "brand": "Fanatec",
+    "type": "Direct Drive Base",
+    "price": 23999,
+    "rating": 4.8,
+    "popularity": 78,
+    "image": "https://i.imgur.com/0KHHeMi.png",
+    "releaseYear": 2021,
+    "compatibility": ["PC", "Xbox (с совместимыми рулями)"],
+    "features": [
+      "5 Nm Direct Drive",
+      "Поддержка Boost Kit 180 (до 8 Nm)",
+      "Платформа Fanatec",
+      "Compact size"
+    ],
+    "warranty": "2 года",
+    "description": "Бюджетная Direct Drive база с возможностью апгрейда мощности и совместимостью с Xbox."
   },
   {
     "id": 17,
-    "name": "Logitech Flight Yoke System",
-    "brand": "Logitech",
-    "type": "Yoke",
-    "price": 12499,
-    "rating": 4.6,
-    "popularity": 77,
-    "image": "https://i.imgur.com/KY0Y0mL.png"
+    "name": "Fanatec CSL Pedals LC",
+    "brand": "Fanatec",
+    "type": "Pedals",
+    "price": 8999,
+    "rating": 4.9,
+    "popularity": 76,
+    "image": "https://i.imgur.com/AFICmhl.png",
+    "releaseYear": 2022,
+    "compatibility": ["PC", "Xbox", "PS (с совместимыми базами)"],
+    "features": [
+      "Load Cell тормоз",
+      "Металлические педали",
+      "Настраиваемый угол наклона",
+      "USB/Direct connection"
+    ],
+    "warranty": "2 года",
+    "description": "Точные педали с нагруженным тормозом, которые обеспечивают реалистичное ощущение торможения."
   },
   {
     "id": 18,
-    "name": "Thrustmaster TCA Sidestick Airbus Edition",
-    "brand": "Thrustmaster",
-    "type": "Yoke",
-    "price": 5499,
-    "rating": 4.5,
-    "popularity": 79,
-    "image": "https://i.imgur.com/5rTRdEQ.png"
+    "name": "MOZA ES Steering Wheel",
+    "brand": "MOZA",
+    "type": "Steering Wheel",
+    "price": 5799,
+    "rating": 4.7,
+    "popularity": 70,
+    "image": "https://i.imgur.com/Xoeq98B.png",
+    "releaseYear": 2022,
+    "compatibility": ["PC"],
+    "features": [
+      "11-дюймовый руль",
+      "Кнопки с RGB подсветкой",
+      "Quick Release система",
+      "Съемные магниты под лепестки"
+    ],
+    "warranty": "1 год",
+    "description": "Бюджетное, но функциональное рулевое колесо с возможностью настройки."
   },
   {
     "id": 19,
-    "name": "Next Level Racing GTLite Cockpit",
-    "brand": "Next Level Racing",
-    "type": "Cockpit",
-    "price": 11499,
-    "rating": 4.8,
-    "popularity": 83,
-    "image": "https://i.imgur.com/YJeGSwM.png"
+    "name": "MOZA SR-P Pedals",
+    "brand": "MOZA",
+    "type": "Pedals",
+    "price": 8999,
+    "rating": 4.6,
+    "popularity": 60,
+    "image": "https://i.imgur.com/wqFz6aa.png",
+    "releaseYear": 2022,
+    "compatibility": ["PC"],
+    "features": [
+      "Полностью металлические",
+      "Тормоз с Load Cell",
+      "Независимое подключение",
+      "Настройка усилия"
+    ],
+    "warranty": "1 год",
+    "description": "Продвинутые педали для тех, кто хочет реалистичное торможение и стабильность."
   },
   {
     "id": 20,
-    "name": "Playseat Evolution Pro",
-    "brand": "Playseat",
-    "type": "Cockpit",
-    "price": 16999,
-    "rating": 4.7,
-    "popularity": 86,
-    "image": "https://i.imgur.com/bJcZ1R5.png"
+    "name": "Logitech G Pro Racing Wheel",
+    "brand": "Logitech",
+    "type": "Direct Drive Wheel",
+    "price": 39999,
+    "rating": 4.9,
+    "popularity": 82,
+    "image": "https://i.imgur.com/wzklcQE.png",
+    "releaseYear": 2023,
+    "compatibility": ["PC", "PS5"],
+    "features": [
+      "11 Nm Direct Drive",
+      "TrueForce Feedback",
+      "Сменные рули",
+      "Поддержка G Hub"
+    ],
+    "warranty": "2 года",
+    "description": "Флагман Logitech с реалистичным FFB и отличной эргономикой."
   },
   {
     "id": 21,
-    "name": "MOZA HGP Shifter",
-    "brand": "MOZA",
-    "type": "Shifter",
-    "price": 7999,
-    "rating": 4.6,
-    "popularity": 78,
-    "image": "https://i.imgur.com/yaZzChB.png"
+    "name": "Thrustmaster T248",
+    "brand": "Thrustmaster",
+    "type": "Hybrid Drive Wheel",
+    "price": 13999,
+    "rating": 4.4,
+    "popularity": 77,
+    "image": "https://i.imgur.com/5yK1NBQ.png",
+    "releaseYear": 2021,
+    "compatibility": ["PC", "PS4", "PS5"],
+    "features": [
+      "Hybrid Force Feedback",
+      "Сменный угол до 900°",
+      "Цифровой экран",
+      "Включены педали"
+    ],
+    "warranty": "1 год",
+    "description": "Руль нового поколения с встроенным экраном и плавным откликом по доступной цене."
   },
   {
     "id": 22,
-    "name": "Fanatec ClubSport Button Module",
-    "brand": "Fanatec",
-    "type": "Accessory",
-    "price": 9999,
+    "name": "Simagic Alpha Mini",
+    "brand": "Simagic",
+    "type": "Direct Drive Base",
+    "price": 34999,
     "rating": 4.8,
-    "popularity": 75,
-    "image": "https://i.imgur.com/ibixUBl.png"
+    "popularity": 65,
+    "image": "https://i.imgur.com/wnMOC2O.png",
+    "releaseYear": 2021,
+    "compatibility": ["PC"],
+    "features": [
+      "10 Nm Direct Drive",
+      "Стандартный QR",
+      "Металлический корпус",
+      "Поддержка SimPro Manager"
+    ],
+    "warranty": "2 года",
+    "description": "Качественная база от Simagic с 10 Нм, профессиональным подходом и высокой отзывчивостью."
   },
   {
     "id": 23,
-    "name": "Thrustmaster T818 Wheel Base",
-    "brand": "Thrustmaster",
-    "type": "Base",
-    "price": 22499,
+    "name": "MOZA HGP Shifter",
+    "brand": "MOZA",
+    "type": "Shifter",
+    "price": 5999,
     "rating": 4.7,
-    "popularity": 83,
-    "image": "https://i.imgur.com/4FqGx1x.png"
+    "popularity": 61,
+    "image": "https://i.imgur.com/cR0cg82.png",
+    "releaseYear": 2022,
+    "compatibility": ["PC"],
+    "features": [
+      "7+R схема",
+      "Механическая конструкция",
+      "Металл + алюминий",
+      "USB-подключение"
+    ],
+    "warranty": "1 год",
+    "description": "Качественный механический шифтер от MOZA с реалистичным ощущением переключения."
   },
   {
     "id": 24,
-    "name": "MOZA R16 Direct Drive Base",
-    "brand": "MOZA",
-    "type": "Base",
-    "price": 39999,
+    "name": "Fanatec ClubSport V3 Pedals",
+    "brand": "Fanatec",
+    "type": "Pedals",
+    "price": 13999,
     "rating": 5.0,
-    "popularity": 74,
-    "image": "https://i.imgur.com/UYhykpl.png"
+    "popularity": 84,
+    "image": "https://i.imgur.com/VLtZQoL.png",
+    "releaseYear": 2018,
+    "compatibility": ["PC", "Xbox", "PS"],
+    "features": [
+      "Load Cell до 90 кг",
+      "Регулируемые зоны усилия",
+      "Двойной вибромотор",
+      "Магнитные сенсоры"
+    ],
+    "warranty": "2 года",
+    "description": "Один из лучших наборов педалей для энтузиастов и профессионалов."
   }
+
 
 ],
 
