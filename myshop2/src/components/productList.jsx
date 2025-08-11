@@ -1,5 +1,5 @@
-import ProductItem from './productItem'; // Adjust path as needed
-import data from '../db.json'; // Adjust path as needed
+import ProductItem from './productItem'; 
+import data from '../db.json'; 
 function ProductList() {
   return (
     <div className="product-list">

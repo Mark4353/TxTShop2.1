@@ -500,9 +500,63 @@
   "users": [
     {
       "id": 1,
-      "username": "gamer123",
-      "email": "gamer123@example.com"
+      "username": "123",
+      "email": "123@gmail.com"
     }
-  ]
+  ],
+  
+  "populars": [
+  {
+    "id": 101,
+    "name": "Logitech G923 TrueForce",
+    "brand": "Logitech",
+    "type": "Wheel",
+    "price": 12999,
+    "rating": 4.8,
+    "popularity": "high",
+    "image": "images/logitech_g923.jpg"
+  },
+  {
+    "id": 102,
+    "name": "Thrustmaster T300 RS GT",
+    "brand": "Thrustmaster",
+    "type": "Wheel",
+    "price": 15999,
+    "rating": 4.7,
+    "popularity": "high",
+    "image": "images/thrustmaster_t300_rs_gt.jpg"
+  },
+  {
+    "id": 103,
+    "name": "Fanatec CSL DD",
+    "brand": "Fanatec",
+    "type": "Wheel",
+    "price": 21999,
+    "rating": 4.9,
+    "popularity": "high",
+    "image": "images/fanatec_csl_dd.jpg"
+  },
+  {
+    "id": 104,
+    "name": "Logitech G Driving Force Shifter",
+    "brand": "Logitech",
+    "type": "Shifter",
+    "price": 2499,
+    "rating": 4.5,
+    "popularity": "high",
+    "image": "images/logitech_shifter.jpg"
+  },
+  {
+    "id": 105,
+    "name": "Thrustmaster T-LCM Pedals",
+    "brand": "Thrustmaster",
+    "type": "Pedals",
+    "price": 6999,
+    "rating": 4.8,
+    "popularity": "high",
+    "image": "images/thrustmaster_t_lcm_pedals.jpg"
+  }
+]
+
 }
 
