@@ -4,7 +4,7 @@ const products = data.populars;
 
 function PopularProducts() {
   const [start, setStart] = useState(0);
-  const visibleCount = 3;
+  const visibleCount = 4;
   const [modalProduct, setModalProduct] = useState(null);
 
   const handlePrev = () => {
