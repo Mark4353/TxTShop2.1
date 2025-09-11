@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import data from '../db.json'; 
 const products = data.populars;
 
-function PopularProducts() {
+function PopularProducts({ onAddToCart }) {
   const [start, setStart] = useState(0);
   const visibleCount = 4;
   const [modalProduct, setModalProduct] = useState(null);
@@ -32,10 +32,10 @@ function PopularProducts() {
                 <span>⭐ {product.rating}</span>
               </div>
               <button
-                className="productItem-button popularItem-button"
-                onClick={() => setModalProduct(product)}
+                className="productItem-button"
+                onClick={() => onAddToCart(product)}
               >
-                About
+                Add to cart
               </button>
             </li>
           ))}

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import product from '../db.json'
 
-function ProductItem({ product }) {
+function ProductItem({ product, onAddToCart }) {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -51,8 +50,18 @@ function ProductItem({ product }) {
                 </ul>
               </div>
             )}
-            <button className="modal-add-button">Add to cart</button>
-            <button className="modal-close-button" onClick={() => setShowModal(false)}>Close</button>
+            <button
+              className="modal-add-button"
+              onClick={() => {
+                onAddToCart(product);
+                setShowModal(false);
+              }}
+            >
+              Add to cart
+            </button>
+            <button className="modal-close-button" onClick={() => setShowModal(false)}>
+              Close
+            </button>
           </div>
         </div>
       )}
