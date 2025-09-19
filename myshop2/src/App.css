@@ -6,7 +6,9 @@ body, html {
   background: #faf9f8;
   color: #282c34;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 h1, h2, h3, .main-title, .product-list-title, .popular-products-title {
   font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
   font-weight: 700;
@@ -77,6 +79,17 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
+.header-box{
+  display: flex;
+  align-items: center;
+  gap: 190px;  
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
 .header-search {
   width: 25px;
   height: 25px;
@@ -206,11 +219,11 @@ a {
   color: #ffffff;
 }
 .highlight {
-  color: #ff5100;
+  color: #51ff00;
   font-weight: bold;
 }
 .red {
-  color: rgb(255, 0, 0);
+  color: rgba(187, 185, 185, 0.925);
   font-weight: bold;
   font-size: 1.2rem;
 }

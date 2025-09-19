@@ -556,6 +556,19 @@
     "popularity": "high",
     "image": "images/thrustmaster_t_lcm_pedals.jpg"
   }
+],
+"used": [
+  {
+    "id": 101,
+    "name": "Logitech G923 TrueForce",
+    "brand": "Logitech",
+    "type": "Wheel",
+    "price": 9999,
+    "rating": 4.8,
+    "popularity": "high",
+    
+    "image": "images/logitech_g923.jpg"
+  }
 ]
 
 }

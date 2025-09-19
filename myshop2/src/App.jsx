@@ -9,6 +9,7 @@ import PartnerLogo from "./components/PartnerLogo";
 import Footer from "./components/Footer";
 import Cart from "./components/Cart";
 import Account from "./components/Account";
+import Used from "./components/UsedProduct";  
 
 function App() {
   const products = data.products;
@@ -32,8 +33,9 @@ function App() {
         <Header onCartClick={() => setShowCart(true)} onAccountClick={() => setShowAccount(true)} />
         <Main />
         <PopularProducts products={popularProducts} onAddToCart={handleAddToCart} />
-        <ProductList onAddToCart={handleAddToCart} />
-        <PartnerLogo />
+         <PartnerLogo />
+         <ProductList onAddToCart={handleAddToCart} />
+        <Used />
         <Footer />
       </div>
       {showCart && (
