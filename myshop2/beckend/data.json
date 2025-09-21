@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1758471881509,
+      "username": "der1x",
+      "email": "mark210100@gmail.com",
+      "password": "$2b$10$Un.LmBXd5/Q0Pye05fqvMu3nU2mm4zGEq0nQPgwh6dvjOuvLawF2K",
+      "purchases": [],
+      "role": "user"
+    },
+    {
+      "id": 1758472977027,
+      "username": "frrf",
+      "email": "mark2101007@gmail.com",
+      "password": "$2b$10$PjGRV6DDdi5IRUwcwsSn1eMF51202ZWwf7wEjdZyP08q8MK8kGgM.",
+      "purchases": [],
+      "role": "user"
+    },
+    {
+      "id": 1758473017179,
+      "username": "",
+      "email": "mark21014400@gmail.com",
+      "password": "$2b$10$ozeUsDiiH0O/Iiw23nbKNuA6BBocjPrPWxWJ70g6BSb37F581MPpC",
+      "purchases": [],
+      "role": "user"
+    },
+    {
+      "id": 1758473666863,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "$2b$10$k66n.p3hTityUXhpunE16.UdDV2hqQoHmewIAyYEjCL9VUVZSIoqm",
+      "purchases": [],
+      "role": "admin007"
+    }
+  ],
+  "products": [],
+  "orders": []
+}
