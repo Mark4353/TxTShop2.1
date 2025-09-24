@@ -31,6 +31,14 @@
       "password": "$2b$10$k66n.p3hTityUXhpunE16.UdDV2hqQoHmewIAyYEjCL9VUVZSIoqm",
       "purchases": [],
       "role": "admin007"
+    },
+    {
+      "id": 1758649954258,
+      "username": "",
+      "email": "",
+      "password": "$2b$10$yHC2mNTIabnvJFUvA4ErLeSF55nzE0o7kgSP7T2Mn88etreX8lxYa",
+      "purchases": [],
+      "role": "user"
     }
   ],
   "products": [],

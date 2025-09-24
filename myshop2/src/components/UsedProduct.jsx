@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
-import data from '../db.json'; 
-const products = data.used;
+import React, { useState, useEffect } from 'react';
 
-function PopularProducts({ onAddToCart }) {
+function UsedProduct({ onAddToCart }) {
+  const [products, setProducts] = useState([]);
   const [start, setStart] = useState(0);
   const visibleCount = 4;
   const [modalProduct, setModalProduct] = useState(null);
+
+  useEffect(() => {
+    fetch('http://localhost:3001/api/products/used')
+      .then(res => res.json())
+      .then(setProducts);
+  }, []);
 
   const handlePrev = () => {
     setStart(prev => Math.max(prev - visibleCount, 0));
@@ -81,4 +86,4 @@ function PopularProducts({ onAddToCart }) {
   );
 }
 
-export default PopularProducts;
+export default UsedProduct;
