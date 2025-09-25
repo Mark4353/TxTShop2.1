@@ -12,12 +12,12 @@ function UsedProduct({ onAddToCart }) {
       .then(setProducts);
   }, []);
 
-  const handlePrev = () => {
-    setStart(prev => Math.max(prev - visibleCount, 0));
-  };
+  // Количество "страниц" для точек
+  const totalPages = Math.ceil(products.length / visibleCount);
 
-  const handleNext = () => {
-    setStart(prev => Math.min(prev + visibleCount, products.length - visibleCount));
+  // Переключение по точкам
+  const handleDotClick = (pageIdx) => {
+    setStart(pageIdx * visibleCount);
   };
 
   const visibleProducts = products.slice(start, start + visibleCount);
@@ -26,7 +26,6 @@ function UsedProduct({ onAddToCart }) {
     <div className="popular-products" id="used-products">
       <h2 className="popular-products-title">Used Products</h2>
       <div className="popular-slider-controls">
-        <button onClick={handlePrev} disabled={start === 0} className="slider-arrow">{'<'}</button>
         <ul className="popular-products-list">
           {visibleProducts.map(product => (
             <li key={product.id} className="popular-product-item">
@@ -44,8 +43,21 @@ function UsedProduct({ onAddToCart }) {
             </li>
           ))}
         </ul>
-        <button onClick={handleNext} disabled={start + visibleCount >= products.length} className="slider-arrow">{'>'}</button>
       </div>
+
+      {/* Точки-пагинация */}
+      {products.length > visibleCount && (
+        <div className="slider-dots">
+          {Array.from({ length: totalPages }).map((_, idx) => (
+            <button
+              key={idx}
+              className={`slider-dot${start / visibleCount === idx ? " active" : ""}`}
+              onClick={() => handleDotClick(idx)}
+              aria-label={`Показать слайд ${idx + 1}`}
+            />
+          ))}
+        </div>
+      )}
 
       {modalProduct && (
         <div className="modal-backdrop" onClick={() => setModalProduct(null)}>

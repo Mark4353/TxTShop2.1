@@ -11,6 +11,7 @@ import Account from "./components/Account";
 import Used from "./components/UsedProduct";
 import LoginForm from "./components/LoginForm";
 import RegisterForm from "./components/RegisterForm";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 function App() {
   // const products = data.products;
@@ -76,10 +77,11 @@ function App() {
           products={popularProducts}
           onAddToCart={handleAddToCart}
         /> */}
-        <PartnerLogo />
+        {/* <PartnerLogo /> */}
         <ProductList onAddToCart={handleAddToCart} />
         <Used />
         <Footer />
+        <ScrollToTopButton />
       </div>
       {showCart && (
         <div className="modal-backdrop" onClick={() => setShowCart(false)}>
