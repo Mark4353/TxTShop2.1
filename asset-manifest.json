@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TxTShop2.1/static/css/main.ed030e33.css",
+    "main.js": "/TxTShop2.1/static/js/main.51c10fbb.js",
+    "static/media/fanatec.webp": "/TxTShop2.1/static/media/fanatec.6b77c5ffa8122a30e211.webp",
+    "index.html": "/TxTShop2.1/index.html",
+    "main.ed030e33.css.map": "/TxTShop2.1/static/css/main.ed030e33.css.map",
+    "main.51c10fbb.js.map": "/TxTShop2.1/static/js/main.51c10fbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed030e33.css",
+    "static/js/main.51c10fbb.js"
+  ]
+}
